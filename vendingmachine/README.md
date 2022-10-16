@@ -9,11 +9,11 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 ## Use Case
 
-The Vending machine displays a welcome message with all products and prices.
-The vending machine asks the user to select a product.
+The vending machine displays a welcome message with all products and prices.
+The vending machine repeatedly asks the user to select a product till user type N.
 The Vending machine asks the user to choose payment option cash or card.
 The Vending machine takes the total payment and return the change amount if any.
-The Vending machine also informs if transaction failed due to insufficient amount paid or invalid payment method and invalid product selection.
+The Vending machine also informs if transaction failed due to insufficient amount paid or wrong product selection.
 
 ## High Level Design
 

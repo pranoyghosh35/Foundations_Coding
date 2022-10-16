@@ -7,6 +7,7 @@ public class App
             VendingMachine v=new VendingMachine();
             v.displayProducts();
             v.selectProduct();
+            v.calculate();
             v.displayPaymentOptions();
             v.makePayment();
             v.displayChangeMessage();
